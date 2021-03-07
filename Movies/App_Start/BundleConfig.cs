@@ -23,8 +23,8 @@ namespace Movies
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/bootstrap-slate.css",
+                      "~/Content/Site.css"));
         }
     }
 }

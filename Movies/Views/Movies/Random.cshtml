@@ -1,0 +1,32 @@
+﻿@*@model Movies.ViewModels.IndexMovieViewModel
+
+    @{
+        ViewBag.Title = "Random";
+    }
+
+
+    @{
+        var className = Model.Customers.Count > 5 ? "popular" : null;
+    }
+
+    <h2 class="@className">@Model.Movie.Name - @Model.Movie.date</h2>
+
+    @if (Model.Customers.Count < 1)
+    {
+        <p>No customers here</p>
+    }
+    else
+    {
+        <div>
+            @foreach (var customer in Model.Customers)
+            {
+                <p class="random">@customer.Name</p>
+            }
+        </div>
+
+    }*@
+
+
+
+
+
