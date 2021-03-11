@@ -189,13 +189,102 @@
     <Compile Include="Migrations\202103071240197_AddIsSubscribedToCustomer.Designer.cs">
       <DependentUpon>202103071240197_AddIsSubscribedToCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202103071245048_AddMembershipType.cs" />
-    <Compile Include="Migrations\202103071245048_AddMembershipType.Designer.cs">
-      <DependentUpon>202103071245048_AddMembershipType.cs</DependentUpon>
+    <Compile Include="Migrations\202103071329288_AddMembershipType.cs" />
+    <Compile Include="Migrations\202103071329288_AddMembershipType.Designer.cs">
+      <DependentUpon>202103071329288_AddMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103071339313_PopulateMembershipTypes.cs" />
+    <Compile Include="Migrations\202103071339313_PopulateMembershipTypes.Designer.cs">
+      <DependentUpon>202103071339313_PopulateMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103071348177_ApplyAnnotationsToCustomerName.cs" />
+    <Compile Include="Migrations\202103071348177_ApplyAnnotationsToCustomerName.Designer.cs">
+      <DependentUpon>202103071348177_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103071717166_AddNameColumnToMembershipType.cs" />
+    <Compile Include="Migrations\202103071717166_AddNameColumnToMembershipType.Designer.cs">
+      <DependentUpon>202103071717166_AddNameColumnToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103071732365_PopulateMembershipTypesAgain.cs" />
+    <Compile Include="Migrations\202103071732365_PopulateMembershipTypesAgain.Designer.cs">
+      <DependentUpon>202103071732365_PopulateMembershipTypesAgain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103071733479_SetNameOfMembershipTypes.cs" />
+    <Compile Include="Migrations\202103071733479_SetNameOfMembershipTypes.Designer.cs">
+      <DependentUpon>202103071733479_SetNameOfMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103080907457_AddBirthdateColumnToCustomer.cs" />
+    <Compile Include="Migrations\202103080907457_AddBirthdateColumnToCustomer.Designer.cs">
+      <DependentUpon>202103080907457_AddBirthdateColumnToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103080910405_ChangeBirthDateColumnNam.cs" />
+    <Compile Include="Migrations\202103080910405_ChangeBirthDateColumnNam.Designer.cs">
+      <DependentUpon>202103080910405_ChangeBirthDateColumnNam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103080920451_MakeBirthDateColumnInCustomersToBeNullable.cs" />
+    <Compile Include="Migrations\202103080920451_MakeBirthDateColumnInCustomersToBeNullable.Designer.cs">
+      <DependentUpon>202103080920451_MakeBirthDateColumnInCustomersToBeNullable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081527286_DropGenreColumnFrmMoviesTbl.cs" />
+    <Compile Include="Migrations\202103081527286_DropGenreColumnFrmMoviesTbl.Designer.cs">
+      <DependentUpon>202103081527286_DropGenreColumnFrmMoviesTbl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081533510_AddNumrInStockColumnToMoviesTable.cs" />
+    <Compile Include="Migrations\202103081533510_AddNumrInStockColumnToMoviesTable.Designer.cs">
+      <DependentUpon>202103081533510_AddNumrInStockColumnToMoviesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081543191_AddGenresTable.cs" />
+    <Compile Include="Migrations\202103081543191_AddGenresTable.Designer.cs">
+      <DependentUpon>202103081543191_AddGenresTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081550030_PopulateGenres.cs" />
+    <Compile Include="Migrations\202103081550030_PopulateGenres.Designer.cs">
+      <DependentUpon>202103081550030_PopulateGenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081616497_AddGenreIdToMoviesTable.cs" />
+    <Compile Include="Migrations\202103081616497_AddGenreIdToMoviesTable.Designer.cs">
+      <DependentUpon>202103081616497_AddGenreIdToMoviesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081743459_MakeGenreRequired.cs" />
+    <Compile Include="Migrations\202103081743459_MakeGenreRequired.Designer.cs">
+      <DependentUpon>202103081743459_MakeGenreRequired.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081816197_MovieTableRefine.cs" />
+    <Compile Include="Migrations\202103081816197_MovieTableRefine.Designer.cs">
+      <DependentUpon>202103081816197_MovieTableRefine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081857158_ChangeRequiredField.cs" />
+    <Compile Include="Migrations\202103081857158_ChangeRequiredField.Designer.cs">
+      <DependentUpon>202103081857158_ChangeRequiredField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081907359_ChangedRequiredToGenreId.cs" />
+    <Compile Include="Migrations\202103081907359_ChangedRequiredToGenreId.Designer.cs">
+      <DependentUpon>202103081907359_ChangedRequiredToGenreId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081913032_AnotherRequiredSwitch.cs" />
+    <Compile Include="Migrations\202103081913032_AnotherRequiredSwitch.Designer.cs">
+      <DependentUpon>202103081913032_AnotherRequiredSwitch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081917056_removeGenreId.cs" />
+    <Compile Include="Migrations\202103081917056_removeGenreId.Designer.cs">
+      <DependentUpon>202103081917056_removeGenreId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081928052_AnotherRequiredSwitch2.cs" />
+    <Compile Include="Migrations\202103081928052_AnotherRequiredSwitch2.Designer.cs">
+      <DependentUpon>202103081928052_AnotherRequiredSwitch2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081931054_AnotherRequiredSwitch3.cs" />
+    <Compile Include="Migrations\202103081931054_AnotherRequiredSwitch3.Designer.cs">
+      <DependentUpon>202103081931054_AnotherRequiredSwitch3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081944310_SwitchRequired4.cs" />
+    <Compile Include="Migrations\202103081944310_SwitchRequired4.Designer.cs">
+      <DependentUpon>202103081944310_SwitchRequired4.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -204,13 +293,15 @@
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\IndexCustomerViewModel.cs" />
     <Compile Include="ViewModels\IndexMovieViewModel.cs" />
+    <Compile Include="ViewModels\CustomerFormViewModel.cs" />
+    <Compile Include="ViewModels\MovieFormViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-materia.css" />
     <Content Include="Content\bootstrap-reboot.css" />
     <Content Include="Content\bootstrap-reboot.min.css" />
-    <Content Include="Content\bootstrap-slate.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -371,6 +462,8 @@
     <Content Include="Views\Movies\Details.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
+    <Content Include="Views\Customers\CustomerForm.cshtml" />
+    <Content Include="Views\Movies\MovieForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -396,8 +489,74 @@
     <EmbeddedResource Include="Migrations\202103071240197_AddIsSubscribedToCustomer.resx">
       <DependentUpon>202103071240197_AddIsSubscribedToCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202103071245048_AddMembershipType.resx">
-      <DependentUpon>202103071245048_AddMembershipType.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202103071329288_AddMembershipType.resx">
+      <DependentUpon>202103071329288_AddMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103071339313_PopulateMembershipTypes.resx">
+      <DependentUpon>202103071339313_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103071348177_ApplyAnnotationsToCustomerName.resx">
+      <DependentUpon>202103071348177_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103071717166_AddNameColumnToMembershipType.resx">
+      <DependentUpon>202103071717166_AddNameColumnToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103071732365_PopulateMembershipTypesAgain.resx">
+      <DependentUpon>202103071732365_PopulateMembershipTypesAgain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103071733479_SetNameOfMembershipTypes.resx">
+      <DependentUpon>202103071733479_SetNameOfMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103080907457_AddBirthdateColumnToCustomer.resx">
+      <DependentUpon>202103080907457_AddBirthdateColumnToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103080910405_ChangeBirthDateColumnNam.resx">
+      <DependentUpon>202103080910405_ChangeBirthDateColumnNam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103080920451_MakeBirthDateColumnInCustomersToBeNullable.resx">
+      <DependentUpon>202103080920451_MakeBirthDateColumnInCustomersToBeNullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081527286_DropGenreColumnFrmMoviesTbl.resx">
+      <DependentUpon>202103081527286_DropGenreColumnFrmMoviesTbl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081533510_AddNumrInStockColumnToMoviesTable.resx">
+      <DependentUpon>202103081533510_AddNumrInStockColumnToMoviesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081543191_AddGenresTable.resx">
+      <DependentUpon>202103081543191_AddGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081550030_PopulateGenres.resx">
+      <DependentUpon>202103081550030_PopulateGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081616497_AddGenreIdToMoviesTable.resx">
+      <DependentUpon>202103081616497_AddGenreIdToMoviesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081743459_MakeGenreRequired.resx">
+      <DependentUpon>202103081743459_MakeGenreRequired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081816197_MovieTableRefine.resx">
+      <DependentUpon>202103081816197_MovieTableRefine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081857158_ChangeRequiredField.resx">
+      <DependentUpon>202103081857158_ChangeRequiredField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081907359_ChangedRequiredToGenreId.resx">
+      <DependentUpon>202103081907359_ChangedRequiredToGenreId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081913032_AnotherRequiredSwitch.resx">
+      <DependentUpon>202103081913032_AnotherRequiredSwitch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081917056_removeGenreId.resx">
+      <DependentUpon>202103081917056_removeGenreId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081928052_AnotherRequiredSwitch2.resx">
+      <DependentUpon>202103081928052_AnotherRequiredSwitch2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081931054_AnotherRequiredSwitch3.resx">
+      <DependentUpon>202103081931054_AnotherRequiredSwitch3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081944310_SwitchRequired4.resx">
+      <DependentUpon>202103081944310_SwitchRequired4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

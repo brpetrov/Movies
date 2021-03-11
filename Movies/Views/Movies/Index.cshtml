@@ -5,6 +5,9 @@
 }
 
 <h2>@ViewBag.Title</h2>
+<p>
+    @Html.ActionLink("New Movie", "New", "Movies", null, new { @class = "btn btn-primary" })
+</p>
 
 @if (!Model.Any())
 {
@@ -16,8 +19,10 @@ else
         <thead>
 
             <tr>
-                <th>ID</th>
-                <th>Movie</th>
+                <th>Name</th>
+                <th>Genre</th>
+                <th>Release Date</th>
+                <th>Number In Stock</th>
             </tr>
         </thead>
         <tbody>
@@ -25,8 +30,10 @@ else
             {
 
                 <tr>
-                    <td>@movie.Id</td>
-                    <td>@movie.Name</td>
+                    <td>@Html.ActionLink(movie.Name, "Edit", "Movies", new { id = movie.Id }, null)</td>
+                    <td>@movie.Genre.Name</td>
+
+                    <td>@movie.NumberInStock</td>
                 </tr>
             }
         </tbody>
