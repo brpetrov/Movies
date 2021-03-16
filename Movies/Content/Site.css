@@ -26,3 +26,18 @@ textarea {
 .popular {
     color: red;
 }
+
+.field-validation-error {
+    color: #ff0033;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.input-validation-error {
+    border-bottom: 1px solid #ff0033;
+}
+
+
+.bootbox .modal-header {
+    display: block;
+}

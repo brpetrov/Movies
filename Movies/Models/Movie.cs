@@ -13,7 +13,7 @@ namespace Movies.Models
         [Required]
         [StringLength(255)]
         public string Name { get; set; }
-
+        [Required]
         [Display(Name = "Release Date")]
         public DateTime ReleaseDate { get; set; }
 
@@ -21,12 +21,11 @@ namespace Movies.Models
 
         [Required]
         [Display(Name = "Number in Stock")]
+        [Range(1, 50)]
         public int NumberInStock { get; set; }
-
         public Genre Genre { get; set; }
 
         [Display(Name = "Genre")]
-        [Required]
         public byte GenreId { get; set; }
     }
 }
